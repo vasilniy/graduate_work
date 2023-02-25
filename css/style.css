@@ -1,4 +1,4 @@
-@import "./reset.css";
+@import "reset.css";
 
 body {
     scroll-behavior: smooth;
@@ -6,5 +6,9 @@ body {
   }
 
 .container {
-    width: 100vw;
+    width: 100vw;    
   }
+
+.navigation {
+  border: 1px solid #000;
+}
