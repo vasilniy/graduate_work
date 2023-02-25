@@ -1,2 +1,10 @@
 @import "./reset.css";
 
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+  }
+
+.container {
+    width: 100vw;
+  }
