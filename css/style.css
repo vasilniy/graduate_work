@@ -35,6 +35,7 @@ body {
   background-size: 100% 100%;
   height: 815px;
   padding-top: 50px;
+  margin-bottom: 55px;
 }
 
 .main_menu,
@@ -95,6 +96,7 @@ body {
 .header_section {
   padding: 75px 0 38px 0;
   gap: 81px;
+  position: relative;
 }
 
 .header_section__article {
@@ -116,11 +118,11 @@ body {
 .header_section__text {
   font-family: "Roboto";
   font-style: normal;
-  color: #8794BA;
+  color: #8794ba;
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .header_section__button {
@@ -145,5 +147,21 @@ body {
 .header_section__img {
   box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
   border-radius: 30px;
+  margin-left: 68px;
 }
 
+.header_section__article::before {
+  position: absolute;
+  content: "";
+  background-image: url(../img/header/screen-chart.svg);
+  width: 361px;
+  height: 247px;
+  box-shadow: 0px 19px 53px -16px rgb(25 42 89 / 20%);
+  border-radius: 32px;
+  right: 185px;
+  top: 206px;
+}
+
+.main {
+  border: 1px solid #000;
+}
