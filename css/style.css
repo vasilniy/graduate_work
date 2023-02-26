@@ -1,26 +1,72 @@
 @import "reset.css";
 
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+
 body {
-    scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-  }
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
 
 .container {
-    width: 100vw;    
-  }
+  width: 100vw;
+}
+/* ------- HEADER --------*/
 
 .header_main {
   background-image: url(../img/header/header-bg.png);
   background-size: 100% 100%;
   height: 815px;
+  padding-top: 50px;
 }
 
 .main_menu,
 .header_section {
   max-width: 1180px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-.main_menu___logo__menu ul{
+.main_menu__logo,
+.main_menu__authorization {
   display: flex;
+  align-items: center;
+}
+
+.main_menu__authorization a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8794ba;
+  padding: 10px 53px;
+  gap: 10px;
+}
+
+.main_menu__authorization a:last-child {
+  border: 1px solid #465b95;
+  border-radius: 68px;
+  padding: 10px 53px;
+}
+
+.main_menu__logo img {
+  width: 184px;
+  height: 40px;
+  display: flex;
+}
+
+.main_menu___logo__menu {
+  margin-left: 82px;
+}
+
+.main_menu___logo__menu ul {
+  display: flex;
+  column-gap: 36px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8794ba;
 }
