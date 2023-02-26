@@ -168,6 +168,7 @@ body {
   max-width: 1180px;
   margin: 0 auto;
   padding-top: 55px;
+  padding-bottom: 114px;
 }
 
 .main_features {
@@ -275,7 +276,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
-  color: #172755;  
+  color: #172755;
 }
 
 .main_content__text {
@@ -284,4 +285,39 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #8794ba;
+}
+
+.pricing {
+  background: url(../img/price/price-bg.png);
+  background-size: 100% 100%;
+  height: 1069px;
+}
+
+.pricing__content {
+  padding-top: 255px;
+  text-align: center;
+  max-width: 1180px;
+  margin: 0 auto;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.pricing__content_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.pricing__content_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #8794ba;
+  margin-bottom: 80px;
+}
+
+.pricing__plans {
+  display: flex;
 }
