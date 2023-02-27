@@ -456,7 +456,7 @@ body {
   width: 144px;
   height: 2px;
   background: #d6d6d6;
-  top: 41%;
+  top: 35%;
   transform: translateX(-110%);
 }
 
@@ -466,7 +466,7 @@ body {
   width: 144px;
   height: 2px;
   background: #d6d6d6;
-  top: 41%;
+  top: 35%;
   transform: translateX(10%);
 }
 
@@ -497,9 +497,11 @@ body {
 /* -------- MEDIA ---------- */
 
 @media (max-width: 768px) {
-  .main_menu___logo__menu {
+  .main_munu__link {
     display: none;
   }
+
+
 
   .header_main {
     padding-top: 20px;
@@ -512,6 +514,7 @@ body {
   
   .main {
     padding-top: 20px;
+    padding-bottom: 50px;
   }
 
   .header_section {
@@ -614,6 +617,71 @@ body {
 
 .main_content__block:nth-child(2n) .main_content__article {
   margin-left: 0;
+}
+
+.pricing__content {
+    padding-top: 255px;
+    text-align: left;
+    max-width: 768px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pricing__content_title {  
+  font-size: 30px;  
+  line-height: 32px;
+  padding-bottom: 20px;
+}
+
+.bottom_content {
+  max-width: 768px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.bottom_content__left {
+  display: none;
+}
+
+.bottom_content__right {
+  width: 100%;
+}
+
+.rating-area {
+  width: 230px;
+}
+
+.companies__column-inner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding: 32px 40.5px;
+  width: 375px;
+}
+
+.footer_content {
+  max-width: 768px;
+  margin: 0 auto;
+  height: 97px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 124px;
+}
+
+.footer {
+  padding: 0 20px;
+}
+
+.footer__link,
+.main_menu___logo__menu {
+  display: none;
 }
 
 }
