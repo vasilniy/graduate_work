@@ -684,4 +684,9 @@ body {
   display: none;
 }
 
+.pricing__plans {
+  overflow-x: scroll;
+  column-gap: 40px;
+}
+
 }
