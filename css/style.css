@@ -247,6 +247,7 @@ body {
 
 .main_content__block {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   font-family: "Roboto";
   font-style: normal;
@@ -412,6 +413,7 @@ body {
   max-width: 962px;
   margin: 0 auto;
   justify-content: center;
+  flex-wrap: wrap;
   padding-top: 100px;
   padding-bottom: 110px;
 }
