@@ -478,4 +478,16 @@ body {
   max-width: 1180px;
   margin: 0 auto;
   height: 154px;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 138px;
+}
+
+.footer__icons {
+  display: flex;
+  column-gap: 40px;
 }
