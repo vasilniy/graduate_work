@@ -588,4 +588,32 @@ body {
   margin-bottom: 9px;
 }
 
+.main_content {
+  margin-top: 70px;
+  padding: 0 20px;
+  row-gap: 60px;
+}
+
+.main_content__text {
+  margin-top: 20px;
+}
+
+.main_content__article {
+  max-width: 100%;
+  margin-right: 0;
+}
+
+.main_content__img {
+  max-width: 335px;
+  margin-top: 30px;
+}
+
+.main_content__block:nth-child(2n) {
+  flex-direction: row;
+}
+
+.main_content__block:nth-child(2n) .main_content__article {
+  margin-left: 0;
+}
+
 }
