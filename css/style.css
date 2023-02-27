@@ -413,6 +413,7 @@ body {
   margin: 0 auto;
   justify-content: center;
   padding-top: 100px;
+  padding-bottom: 110px;
 }
 
 .bottom_content__left {
@@ -469,3 +470,12 @@ body {
 
 /* ------------ FOOTER ------------*/
 
+.footer {
+  background: #1F2F5C;
+}
+
+.footer_content {
+  max-width: 1180px;
+  margin: 0 auto;
+  height: 154px;  
+}
