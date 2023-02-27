@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "form.css";
 
 @font-face {
   font-family: "Roboto";
@@ -384,21 +385,87 @@ body {
 }
 
 .pricing__cards:hover {
-  background: #FFFFFF;
+  background: #ffffff;
   transition: all 0.5s ease-in-out;
 }
 
 .pricing__cards:hover .card__button {
-  background: #EF2A82;
+  background: #ef2a82;
   transition: all 0.5s ease-in-out;
 }
 
-.pricing__cards:hover .card__text1{
+.pricing__cards:hover .card__text1 {
   color: #172755;
   transition: all 0.5s ease-in-out;
 }
 
-.pricing__cards:hover .card__text3{
+.pricing__cards:hover .card__text3 {
   color: #172755;
   transition: all 0.5s ease-in-out;
 }
+
+/* ---------- bottom_content ------*/
+
+.bottom_content {
+  display: flex;
+  column-gap: 20px;
+  max-width: 962px;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.bottom_content__left {
+  display: flex;
+  flex-direction: column;
+  width: 461px;
+  position: relative;
+}
+
+.bottom_content__left p:first-child {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #160637;
+}
+
+.bottom_content__trust {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8989a2;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.bottom_content__companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 75px;
+  justify-content: center;
+}
+
+.bottom_content__trust::before {
+  position: absolute;
+  content: "";
+  width: 144px;
+  height: 2px;
+  background: #d6d6d6;
+  top: 41%;
+  transform: translateX(-110%);
+}
+
+.bottom_content__trust::after {
+  position: absolute;
+  content: "";
+  width: 144px;
+  height: 2px;
+  background: #d6d6d6;
+  top: 41%;
+  transform: translateX(10%);
+}
+
+/* ------------ FOOTER ------------*/
+
