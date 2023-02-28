@@ -501,8 +501,6 @@ body {
     display: none;
   }
 
-
-
   .header_main {
     padding-top: 20px;
   }
@@ -721,5 +719,13 @@ body {
   width: 200px;
   height: 40px;
 }
+
+}
+
+@media (max-width: 375px) {
+
+  .header_section__img {
+    max-width: 335px;
+  }
 
 }
