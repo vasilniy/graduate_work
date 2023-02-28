@@ -750,7 +750,7 @@ body {
 
   .main_menu__authorization::before {
     position: absolute;
-    right: 20px;
+    right: 40px;
     top: 8px;
     content: "";
     background-image: url(../img/header/menu-icon.svg);
