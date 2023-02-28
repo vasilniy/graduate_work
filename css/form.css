@@ -36,7 +36,7 @@
 
 .form__auth-btn {
   padding-left: 105px;
-  padding-right: 104px;
+  padding-right: 120px;
   line-height: 48px;
   height: 48px;
   border-radius: 4px;
@@ -44,7 +44,6 @@
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
-
   transition: background 0.3s ease-in;
 }
 
