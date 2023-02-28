@@ -718,6 +718,24 @@ body {
 }
 
 @media (max-width: 425px) {
+  .main_menu {
+    padding: 0 20px;
+    justify-content: stretch;
+  }
+
+  .header_section__text {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .header_section__img {
+    max-width: 335px;
+  }
+
+  .main_menu__logo {
+    width: 138px;
+  }
+
   .main_menu__authorization button:last-child {
     display: none;
   }
