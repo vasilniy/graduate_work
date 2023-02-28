@@ -729,6 +729,11 @@ body {
     justify-content: stretch;
   }
 
+  .header_section__text {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
   .header_section__img {
     max-width: 335px;
   }
@@ -760,4 +765,5 @@ body {
     display: block;
     z-index: 10;
   }
+
 }
