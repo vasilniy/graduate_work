@@ -1,2 +1,23 @@
 const formAuthorizationEl = document.querySelector('.form__authorization');
-console.log(formAuthorizationEl);
+
+const password1El = formAuthorizationEl.querySelector('#password1');
+const password2El = formAuthorizationEl.querySelector('#password2');
+const formAuthBtnEl = formAuthorizationEl.querySelector('.form__auth-btn');
+
+formAuthBtnEl.addEventListener('click', e => {
+    if (!password1El.value || !password2El.value) {
+        alert('Поля ввода паролей не могут быть пустыми');
+        e.preventDefault();
+    }
+
+    else if (password1El.value == password2El.value) {
+        console.log('Все хорошо');
+    }
+    else {
+        password1El.style.borderColor = 'red';
+        password2El.style.borderColor = 'red';
+        alert('Пароли не совпдают');        
+        e.preventDefault();
+    }
+
+});
