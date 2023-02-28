@@ -687,6 +687,39 @@ body {
 .pricing__plans {
   overflow-x: scroll;
   column-gap: 40px;
+  justify-content: stretch;
+}
+
+.pricing__cards {
+ min-width: 280px;
+ height: 358px;
+}
+
+.card__text1 {
+  padding-top: 35px;
+}
+
+.card__text2 {
+  width: 200px;
+  margin-top: 7px;
+  padding-bottom: 30px;
+}
+
+.card__text3 {
+  margin-top: 20px;
+}
+
+.card__text4 {
+  margin-bottom: 36px;
+}
+
+.pricing__cards p {
+  text-align: center;
+}
+
+.card__button {
+  width: 200px;
+  height: 40px;
 }
 
 }
