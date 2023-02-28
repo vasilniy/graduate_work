@@ -21,3 +21,14 @@ formAuthBtnEl.addEventListener('click', e => {
     }
 
 });
+
+password2El.addEventListener('input', e => {    
+    if (e.target.value == password1El.value) {
+        password1El.style.borderColor = 'green';
+        password2El.style.borderColor = 'green';
+    }
+    else {
+        password1El.style.borderColor = 'red';
+        password2El.style.borderColor = 'red';
+    }
+});
