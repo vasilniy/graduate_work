@@ -724,8 +724,40 @@ body {
 
 @media (max-width: 375px) {
 
+  .main_menu {
+    padding: 0 20px;
+    justify-content: stretch;
+  }
+
   .header_section__img {
     max-width: 335px;
   }
 
+  .main_menu__logo {
+    width: 138px;    
+  }
+
+  .main_menu__authorization button:last-child {
+    display: none; 
+  }
+
+  .main_menu__button {
+    padding-left: 100px;
+  }
+
+  .main_menu {
+    position: relative;
+  }
+
+  .main_menu__authorization::before {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    content: "";
+    background-image: url(../img/header/menu-icon.svg);
+    width: 24px;
+    height: 24px;
+    display: block;
+    z-index: 10;
+  }
 }
